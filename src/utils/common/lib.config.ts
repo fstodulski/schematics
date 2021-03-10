@@ -25,7 +25,7 @@ export const LIB_CONFIG: NodeDependency[] = [
   {
     type: NodeDependencyType.Default,
     name: LIBRARIES.STORE,
-    version: '^3.3.2',
+    version: '^3.7.1',
     overwrite: true
   },
   {
