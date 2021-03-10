@@ -8,6 +8,18 @@
       "aliases": ["ngxs-store"],
       "schema": "./factories/store/schema.json"
     },
+    "facade": {
+      "factory": "./factories/facade/facade.factory#facade",
+      "description": "Create a NGXS facade",
+      "aliases": ["ngxs-facade"],
+      "schema": "./factories/facade/schema.json"
+    },
+    "selectors": {
+      "factory": "./factories/selectors/selectors.factory#selectors",
+      "description": "Create a NGXS selectors",
+      "aliases": ["ngxs-selectors"],
+      "schema": "./factories/selectors/schema.json"
+    },
     "state": {
       "factory": "./factories/state/state.factory#state",
       "description": "Create a NGXS state",
